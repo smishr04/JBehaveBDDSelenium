@@ -42,7 +42,7 @@ public class sampleMapper extends JUnitStories {
 				new LoadFromClasspath(getClass().getClassLoader()))
 				.useStoryReporterBuilder(
 						new StoryReporterBuilder().withFormats(Format.CONSOLE,
-								Format.STATS, Format.HTML));
+								Format.STATS, Format.HTML, Format.TXT ,Format.XML));
 
 	}
 
